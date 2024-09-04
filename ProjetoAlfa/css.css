@@ -13,19 +13,23 @@ header{
     padding: 20px;
 }
 
-.logo-texto{
+.logo-texto {
     margin-left: 25px;
     font-size: 24px;
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
     font-weight: normal;
     padding: 10px 15px;
+}
+
+.logo-texto a:visited{
+    color: white !important;
+    text-decoration: none !important;
 }
 
 .logo-texto:hover{
     background-color: darkblue;
 }
-
 .container-logo{
     display: flex;
     align-items: center;
