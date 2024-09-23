@@ -130,3 +130,17 @@ header{
 .horizontal-list li a:hover {
     background-color: darkblue; /* Cor de fundo ao passar o mouse */
 }
+
+/*
+
+    Código a partir daqui é feito para as aulas, se quiser criar um CSS só para a pagina pode ser feito!
+
+*/
+
+#videoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
