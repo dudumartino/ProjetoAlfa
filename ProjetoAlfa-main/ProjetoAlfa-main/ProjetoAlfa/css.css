@@ -137,10 +137,19 @@ header{
 
 */
 
-#videoContainer {
+.lista-horizontal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+}
+
+.lista-horizontal li {
+    margin: 5px;
+}
+
+.aulaSelector {
+    width: 100%;
+    padding: 20px;
+    transition: 200ms;
 }
