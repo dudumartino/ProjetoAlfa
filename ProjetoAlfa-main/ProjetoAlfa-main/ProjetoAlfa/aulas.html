@@ -31,10 +31,39 @@
         </div>
         <div class="aulas-texto">Aqui você encontrará as aulas para assistir.</div>
         <div class="menu-aulas">
-            <ul id="videoContainer" class="lista-horizontal">
+            <ul class="lista-horizontal">
+                <button class="aulaSelector" onclick="getAulaSilabasFrases()">Sílabas e Frases</button>
+                <div id="silabasFrasesContainer"></div>
+            </ul>
+            <ul class="lista-horizontal">
+                <button class="aulaSelector" onclick="getLetrasPontuacao()">Letras e Pontuação</button>
+                <div id="letrasPontuacaoContainer"></div>
+            </ul>
+            <ul class="lista-horizontal">
+                <button class="aulaSelector" onclick="getAulaMatematica()">Matemática</button>
+                <div id="matematicaBasica"></div>
+            </ul>
+            <ul  class="lista-horizontal">
+                <button class="aulaSelector" onclick="getAulaBonus()">Bônus</button>
+                <div id="bonusContainer"></div>
             </ul>
         </div>
     </section>
+
+    <footer style="background-color: #ADD8E6; color: white; padding: 20px 0; text-align: center; position: relative; bottom: 0; width: 100%;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div style="text-align: center;">
+                    <h3 style="color: white; margin-bottom: 10px;">Entre em Contato</h3>
+                    <p style="margin: 5px 0;">Email: <a href="mailto:contato@projetoalfa.com" style="color: white;">contato@projetoalfa.com</a></p>
+                    <p style="margin: 5px 0;">Telefone: <a href="tel:(031) 99295-4347" style="color: white;">(031) 99295-4347</a></p>
+                </div>
+            </div>
+            <div style="margin-top: 20px; font-size: 14px;">
+                &copy; 2024 Projeto Alfa. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
 
     <script src="showVideo.js"></script>
 </body>
