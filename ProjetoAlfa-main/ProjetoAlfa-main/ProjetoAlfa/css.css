@@ -65,6 +65,24 @@ header{
     padding: 50px;
 }
 
+.img_grafico{
+    float: right;
+    width: 60%;
+}
+
+.posicao{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 20%;
+    padding: 50px;
+}
+
+.paragrafos{
+    justify-content: space-between;
+    font-size: large;
+}
+
 .header-inscricao{
     width: 100%;
     background-color: #ADD8E6;
